@@ -1,6 +1,7 @@
 use std::sync::{Arc, Mutex};
 use std::thread;
 
+
 fn main() {
     let mut handlers = Vec::new();
     let data = Arc::new(Mutex::new(vec![1; 10]));
